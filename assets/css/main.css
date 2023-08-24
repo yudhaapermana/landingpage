@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: LexendDeca;
+  src: url("../fonts/LexendDeca-Regular.ttf") format("truetype");
+}
+
+@layer base {    
+    h2 {
+        @apply font-deca font-normal text-[2rem] leading-[2.5rem]
+    }
+    h3 {
+        @apply font-deca font-normal text-[1.5rem] leading-[1.875rem]
+    }
+    h4 {
+        @apply font-deca font-bold text-[1rem] leading-[1.875rem] uppercase
+    }
+    p {
+        @apply font-deca font-normal text-[1.125rem] leading-[1.688rem]
+    }
+}
+
+@layer components {
+    .logo {
+        @apply font-deca font-semibold
+    }
+    .h1 {
+        @apply font-deca font-bold text-[3.125rem] leading-[4rem];
+    }
+    .h1-mobile {
+        @apply font-deca font-bold text-[2.125rem] leading-[3rem];
+    }
+    .caption {
+        @apply font-deca font-normal text-[0.875rem] leading-[1.438rem]
+    }
+    .link {
+        @apply font-deca font-medium text-[1rem] leading-[1.5rem] underline
+    }  
+}
