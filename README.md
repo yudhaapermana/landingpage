@@ -1,4 +1,4 @@
-# detik
+# landingpage
 
 ## Build Setup
 
